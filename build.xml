@@ -1,5 +1,4 @@
 <project name="Hello_World" default="first" basedir=".">
-<!-- added comment -->
     <description>
         simple example build file
     </description>
