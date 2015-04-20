@@ -1,0 +1,16 @@
+<project name="Hello_World" default="first" basedir=".">
+<!-- added comment -->
+    <description>
+        simple example build file
+    </description>
+	
+	<property file="build.properties"/>
+	
+	<target name="first">
+	<echo message="First Target"/>
+	<echo message="My java is located under ${JAVA_HOME}"/>
+	<echo message="My source code location ${src.dir}"/>
+	</target>
+	
+
+ </project>
